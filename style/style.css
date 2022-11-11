@@ -585,8 +585,7 @@ nav a:hover
 }
 .liste_filtres
 {
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;   
 }
 
 .filtre
@@ -607,7 +606,7 @@ nav a:hover
 
 .bloc_hebergements
 {
-    width: 95%;
+    width: 100%;
     background-color: white;
     
 }
@@ -616,11 +615,17 @@ nav a:hover
 {
     width: 100%;
     padding: 0;
+    border-radius: 0;
 }
 
 .card_pop
 {
-    width: 95%;
+    width: 100%;
+}
+
+.container_card
+{
+    margin: 0 15px 0 15px;
 }
 
 .card
@@ -631,6 +636,7 @@ nav a:hover
 .container_cards_hebergement
 {
    margin: 0;
+   width: 100%;
 }
 
 /*afficher plus*/
@@ -643,15 +649,19 @@ nav a:hover
 .card_activites
 {
     flex-direction: column;
-    
+    align-items: center;
 }
 
 .card_activite
 {
-    width: 100%;
-     
+    width: 95%;
+    margin: 15px 0 15px 0; 
 }
 
+.card_activite img
+{
+    height: 150px;
+}
 /*footer*/
 .bloc_footer
 {
