@@ -123,11 +123,12 @@ nav a:hover
 .bloc_marqueur
 {
     background-color: #F2F2F2;
-    width: 32px; 
+    width: 35px; 
     height: 42px;
     display: flex;
     border-radius: 10px 0 0 10px;
-    padding-right: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
     
 }
 
@@ -140,7 +141,7 @@ nav a:hover
 {
     height: 42px;
     width: 200px;
-    padding : 5px 0 7px 0;
+    padding : 5px 0 5px 10px;
     border: #d9d9d9;
 }
 
@@ -591,6 +592,7 @@ nav a:hover
 .filtre
 {
     margin-left: 10px;
+    width: 30%;
 }
 
 /*section hébergements et populaires*/
@@ -626,6 +628,7 @@ nav a:hover
 .container_card
 {
     margin: 0 15px 0 15px;
+    flex-direction: column;
 }
 
 .card
