@@ -525,7 +525,12 @@ nav a:hover
 /*responsive design smartphones*/
 @media all and (max-width: 768px) 
 {
-  
+
+    .card, .card_pop, .card_activite
+    {
+        transition: transform .0s;
+    }
+    
 .card:hover, .card_activite:hover, .card_pop:hover
 {
     display: none;
